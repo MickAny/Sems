@@ -1,0 +1,70 @@
+a{
+    text-decoration: none;
+}
+
+
+.Main_Content{
+    width: 522px;
+    height: 374px;
+    top: -308px;
+    left: -587px;
+    border-radius: 50px;
+}
+
+
+.header{
+    width: 1170px;
+    height: 40px;
+    top: -432px;
+    left: -585px;
+    border: 1px;
+}
+.home{
+    color: #F25822;
+}
+.menu{
+    color: #000000;
+}
+
+
+.info{
+
+}
+.title{
+    
+}
+.text{
+    color: #888888;
+}
+
+
+.top_buttons{
+
+}
+.button_1{
+    color: #FFFFFF;
+    background-color: #F25822;
+    border: none;
+    border-radius: 50%;
+}
+.button_2{
+    color: #AAAAAA;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+
+.image{
+    width: 544.81px;
+    height: 374.84px;
+    top: -309.29px;
+    left: -24.06px;
+}
+
+
+.footer{
+    width: 1920px;
+    height: 243px;
+    top: 228px;
+    left: -960px;
+}
