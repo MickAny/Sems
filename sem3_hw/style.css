@@ -21,36 +21,63 @@ a{
 }
 .home{
     color: #F25822;
+    font-size: 20px;
 }
 .menu{
     color: #000000;
+    font-size: 20px;
 }
 
 
-.info{
-
-}
 .title{
-    
+    width: 522px;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .text{
     color: #888888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 430px;
+}
+
+.buttons{
+    display: flex;
+    gap: 40px;
 }
 
 
-.top_buttons{
-
-}
 .button_1{
     color: #FFFFFF;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0em;  
+
     background-color: #F25822;
     border: none;
-    border-radius: 50%;
+    width: 140px;
+    height: 50px;
+    top: 16px;
+    left: -585px;
+    border-radius: 50px;
 }
 .button_2{
     color: #AAAAAA;
     background-color: #FFFFFF;
     border: none;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 
@@ -67,4 +94,61 @@ a{
     height: 243px;
     top: 228px;
     left: -960px;
+}
+
+.display{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.footer{
+    width: 1240px;
+    height: 158px;
+    top: 266px;
+    left: 1970px;
+    border: 1px;
+    padding-top: 30px;
+}
+.brands{
+    width: 1200px;
+    height: 50px;
+    top: 325px;
+    left: 1983px;
+
+    display: flex;
+    gap: 35px;
+
+}
+.header{
+    width: 1150px;
+    height: 114px;
+    
+    display: flex;
+    align-items: center;
+    gap: 375px;
+}
+.Main_Content{
+    width: 1274px;
+    height: 536px;
+    top: -323px;
+    left: 1954px;
+    border: 1px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 55px
+    
+}
+
+.image{
+    width: 610.73px;
+    height: 372.9px;
+    top: -308px;
+    left: 2572px;
+}
+
+.links{
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
 }
