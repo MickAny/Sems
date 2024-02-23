@@ -80,10 +80,6 @@ body{
 }
 
 
-
-
-
-
 .content1{
     width: 1600px;
     height: 520px;
@@ -133,8 +129,6 @@ body{
     min-height: 581px;
     background-color: #F8F8F8;
 }
-
-
 
 
 .content2{
@@ -252,8 +246,185 @@ margin-top: 60px;
 }
 
 
+.content3{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 360px 360px 360px;
+    gap: 30px;
+
+    width: 1600px;
+    height: 341px;
+    background-color: #222224;
+    margin-top: 187px
+}
+.content3item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 134px;
+    gap: 10px;
+    color: white;
+}
+.cnt3maintext{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.cnt3sectext{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
 
 
+.content4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 224px;
+
+    width: 1600px;
+    height: 448px;
+    top: 3301px;
+
+    background-image: url(../sem1_5_6_7_8_hw/img/content4_bckgrnd.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content4left{
+    width: 359.45px;
+    height: 225px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+.content4lefttext{
+    width: 359.45px;
+    height: 99px;
+
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.content4right{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    width: 557px;
+    height: 142px;
+    
+}
+form{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+input{
+    display: inline-block;
+    box-sizing: border-box;
+}
+input[type="email"]{
+    background-color: #E1E1E1;
+    width: 256px;
+    height: 49px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+input[type="submit"]{
+    background-color: #F16D7F;
+    border-radius: 0 25px 25px 0;
+    width: 100px;
+    height: 49px;
+    border: none;
+    outline: none;
+    left: 20px;
+    color: #FFFFFF;
+    font-size: 14px;
+
+}
+.content4logotext{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.content4addtext{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.footer{
+    width: 1600px;
+    height: 79px;
+    gap: 655px;
+    background-color: #222224;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerleft{
+    width: 332px;
+    height: 19px;
+    color: white;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.footerright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 147.66px;
+    height: 32px;
+}
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 31.45px;
+    height: 32px;
+    background-color: white;
+}
+.footerlogo:hover{
+    background-color: pink;
+}
 
 
 
@@ -277,7 +448,6 @@ margin-top: 60px;
         padding-left: calc(50% - 370px);
         padding-right: calc(50% - 370px);
     } 
-
 
 
 
@@ -317,9 +487,6 @@ margin-top: 60px;
     }
 
 
-
-
-
     .logo{
         width: 768px;
         height: 367px;
@@ -354,14 +521,6 @@ margin-top: 60px;
         white-space: pre;
         margin-top: -140px;
     }
-
-
-
-
-
-
-
-
 
 
     .content1{
@@ -412,9 +571,6 @@ margin-top: 60px;
     }
     
 
-
-
-    
     .content2{
     display: flex;
     flex-direction: column;
@@ -509,10 +665,6 @@ margin-top: 60px;
         padding: 7px;
         padding-left: 10px
     }
-
-
-
-
     .redLogoFont{
         font-family: Lato;
         font-size: 37px;
@@ -560,6 +712,197 @@ margin-top: 60px;
         text-align: center;
         color: #F16D7F;
     }
+
+
+
+
+
+
+
+
+
+.content3{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 360px;
+    gap: 30px;
+
+    width: 768px;
+    height: 610px;
+    background-color: #222224;
+    margin-top: 20px
+}
+.content3item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 134px;
+    gap: 10px;
+    color: white;
+}
+.cnt3maintext{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.cnt3sectext{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+
+.content4{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+
+    width: 768px;
+    height: 693px;
+    top: 3301px;
+
+    background-image: url(../sem1_5_6_7_8_hw/img/content4_bckgrnd.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+}
+.content4left{
+    width: 359.45px;
+    height: 225px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+.content4lefttext{
+    width: 359.45px;
+    height: 99px;
+
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.content4right{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    width: 557px;
+    height: 142px;
+    
+}
+form{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+input{
+    display: inline-block;
+    box-sizing: border-box;
+}
+input[type="email"]{
+    background-color: #E1E1E1;
+    width: 256px;
+    height: 49px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+input[type="submit"]{
+    background-color: #F16D7F;
+    border-radius: 0 25px 25px 0;
+    width: 100px;
+    height: 49px;
+    border: none;
+    outline: none;
+    left: 20px;
+    color: #FFFFFF;
+    font-size: 14px;
+
+}
+.content4logotext{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.content4addtext{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.footer{
+    width: 768px;
+    height: 79px;
+    gap: 305px;
+    background-color: #222224;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerleft{
+    width: 251px;
+    height: 19px;
+    color: white;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.footerright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 147.66px;
+    height: 32px;
+}
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 31.45px;
+    height: 32px;
+    background-color: white;
+}
+.footerlogo:hover{
+    background-color: pink;
+}
+
 }
 
 
@@ -832,5 +1175,203 @@ margin-top: 60px;
         letter-spacing: 0em;
         text-align: center;
         color: #F16D7F;
+    }
+
+
+
+
+    .content3{
+        width: 375px;
+        height: 610px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 347px;
+    
+
+        background-color: #222224;
+        margin-top: 1844px;
+    }
+    .content3item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        height: 129px;
+        gap: 10px;
+        color: white;
+    }
+    .cnt3maintext{
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .cnt3sectext{
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+    }
+    
+    
+    
+    
+    
+    
+    .content4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    
+        width: 375px;
+        height: 550px;
+        top: 3301px;
+    
+        background-image: url(../sem1_5_6_7_8_hw/img/content4_bckgrnd.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    
+    }
+    .content4left{
+        width: 343px;
+        height: 194px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .content4lefttext{
+        width: 359.45px;
+        height: 99px;
+    
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .content4right{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    
+        width: 341px;
+        height: 123px;
+        
+    }
+    form{
+        display: flex;
+        flex-direction: row;
+        padding-top: 25px;
+    }
+    input{
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    input[type="email"]{
+        background-color: #E1E1E1;
+        width: 256px;
+        height: 49px;
+        border: none;
+        outline: none;
+        padding: 0 25px;
+        border-radius: 25px 0 0 25px;
+    }
+    input[type="submit"]{
+        background-color: #F16D7F;
+        border-radius: 0 25px 25px 0;
+        width: 100px;
+        height: 49px;
+        border: none;
+        outline: none;
+        left: 20px;
+        color: #FFFFFF;
+        font-size: 14px;
+    
+    }
+    .content4logotext{
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .content4addtext{
+        font-family: Lato;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    
+    
+    
+    
+    .footer{
+        width: 375px;
+        height: 143px;
+        gap: 20px;
+        background-color: #222224;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footerleft{
+        width: 251px;
+        height: 19px;
+        color: white;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 15px;
+}
+        
+    
+    }
+    .footerright{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        
+        width: 147.66px;
+        height: 32px;
+    }
+    .footerlogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: 31.45px;
+        height: 32px;
+        background-color: white;
+    }
+    .footerlogo:hover{
+        background-color: pink;
     }
 }
