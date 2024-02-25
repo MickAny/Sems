@@ -51,6 +51,7 @@ body{
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logo{
     width: 1600px;
@@ -107,6 +108,7 @@ body{
 .item4{
     grid-column: 1 / 4 ;
     margin-top: -30px;
+    right: -388px;
 }
 .contentText{
     position: absolute;
@@ -128,6 +130,11 @@ body{
 .block{
     min-height: 581px;
     background-color: #F8F8F8;
+}
+
+
+.button:hover{
+    background-color: rgb(250, 233, 236);
 }
 
 
@@ -364,6 +371,10 @@ input[type="submit"]{
     font-size: 14px;
 
 }
+input[type="submit"]:hover{
+    background-color: #222224;
+
+}
 .content4logotext{
     font-family: Lato;
     font-size: 24px;
@@ -559,6 +570,7 @@ input[type="submit"]{
         justify-content: flex-end;
         flex-direction: column-reverse;
         margin-top: -47px;
+        right: 0px;
     }
     .contentText{
         display: flex;
@@ -1349,10 +1361,10 @@ input[type="submit"]{
         letter-spacing: 0em;
         text-align: left;
         padding-bottom: 15px;
-}
+    }
         
     
-    }
+    
     .footerright{
         display: flex;
         flex-wrap: wrap;
@@ -1375,3 +1387,5 @@ input[type="submit"]{
         background-color: pink;
     }
 }
+
+
