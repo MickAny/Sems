@@ -1,0 +1,28 @@
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+}
+
+.item {
+  flex-shrink: 1;
+  height: 100px;
+  border: 1px solid #000;
+}
+
+.item_2 {
+  flex-shrink: 2;
+}
+
+.content2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+}
+.content2 .item {
+  border: 1px solid #000;
+  min-height: 100px;
+}/*# sourceMappingURL=style.css.map */

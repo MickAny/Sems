@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    color: #222222; 
+    font-size: 28px; 
+    line-height: 36px;
+    font-weight: bold;
+}
+.title{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color:  #222222
+}
+.text{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.form{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 10px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+}
+

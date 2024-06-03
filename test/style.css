@@ -1,0 +1,13 @@
+body{
+    width: 800px;
+    height: 1200px;
+}
+.item{
+    border: 1px solid black;
+    width: 790px;
+    height: 150px;
+}
+.class{
+    display: grid;
+    gap: 30px;
+}

@@ -1,0 +1,14 @@
+.heading{
+    color: rgb(202, 235, 15);
+}
+.title{
+    background-color: blueviolet;
+}
+.heading-about{
+    color: aqua;
+    background-color: brown;
+
+    border-color: chartreuse;
+    border-style: dotted;
+    border-width: 2px;
+}

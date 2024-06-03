@@ -1,0 +1,144 @@
+*{
+    text-decoration: none;
+}
+@keyframes heartbeat{
+    from {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        -webkit-transform-origin: center center;
+                transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+    }
+    10% {
+        -webkit-transform: scale(0.91);
+                transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+    }
+    17% {
+        -webkit-transform: scale(0.98);
+                transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+    }
+    33% {
+        -webkit-transform: scale(0.87);
+                transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+    }
+    45% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+    }
+}
+.header_link:hover{
+    /* Наведение на элемент */
+    color: rgb(255, 255, 255);
+}
+.header_link:active{
+    /* активация(пкм\лкм) */
+    color: red;
+}
+.header{
+    width: 100wh;
+    background-color: #0bdf1d;
+    height: 130px;
+    text-decoration: none;
+}
+
+.header_link:first-child{
+    font-size: 28px;
+}
+.header_link:last-child{
+    border-right: 1px solid orange;
+    padding-right: 30px;
+}
+
+/* .header_link:nth-child(2n){
+    Каждый 2-й элемент
+    background-color: gray;
+} */
+
+/* .list_item_new::after{
+    Модификация контента
+    content: " New!!";
+    color: red;
+} */
+
+.list_item:hover::after{
+    content: " <<";
+}
+.icon:hover path {
+    fill: blue;
+}
+.button{
+    font-size: 15px;
+    display: block;
+    width: 120px;
+    height: 40px;
+    border: 1px solid purple;
+    text-align: center;
+    line-height: 40px;
+    color: purple;
+    transition: all 0.3s;
+    animation: heartbeat 1.5s ease-in-out 3s both;
+}
+.button:hover{
+    background-color: purple;
+    color: white;
+    
+}
+
+.car{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #0cce46;
+    transition: margin 3s;
+}
+.drive{
+    margin-top: 50px;
+}
+.drive:hover .car{
+margin-left: 1000px;
+}
+.car-1{
+    transition-timing-function: ease;
+}
+.car-2{
+    transition-timing-function: ease-in;
+}
+.car-3{
+    transition-timing-function: ease-out;
+}.car-4{
+    transition-timing-function: ease-in-out;
+}
+.car-5{
+    transition-timing-function: linear;
+}   
+
+
+
+.bord_item{
+    width: 150px;
+    height: 86px;
+    border: 1px solid #000;
+    transition: transform 1s;
+}
+.bord{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bord_item-1:hover {
+    transform: translate(200px, -30px) scale(1.5);
+}
+.bord_item-2 {
+    transform: rotate(60deg);
+}

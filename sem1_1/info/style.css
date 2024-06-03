@@ -1,0 +1,15 @@
+.image{
+    border-radius: 10px;
+    width: 550px;
+
+}
+.menu{
+    color: #222222; 
+    font-size: 28px; 
+    line-height: 36px;
+    font-weight: bold;
+
+    border-color: black;
+    border-style:groove;
+    border-width: 0lvh;
+}
